@@ -17,3 +17,6 @@
 (defun starts-with (list x)
   "Is this a list whole first element is x?"
   (and (consp list) (eql (first list) x)))
+
+(defun ! (x)
+  (not x))
